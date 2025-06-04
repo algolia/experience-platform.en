@@ -17,7 +17,7 @@ You must have a valid [!DNL Algolia] account in order to use this extension. Go 
 
 ### Gather required configuration details {#configuration-details}
 
-To connect [!DNL Algolia] with Adobe Experience Platform, you’ll need the following information:
+To connect [!DNL Algolia] with Algolia Insights extension, you'll need the following information:
 
 | Credential | Description | Example |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ In the configuration view that appears, you must provide the following details:
 >
 >In most cases, it's recommended to load [!DNL Algolia] Insights on every page of your site.
 
-Add the **[!UICONTROL Load Insights]** action to your tag rule wherever it makes the most sense for loading [!DNL Algolia] Insights based on your rule’s context. This action loads the `search-insights.js` library onto the page. 
+Add the **[!UICONTROL Load Insights]** action to your tag rule wherever it makes the most sense for loading [!DNL Algolia] Insights based on your rule's context. This action loads the `search-insights.js` library onto the page. 
 
 Create a new tag rule or open an existing one. Define the conditions according to your requirements, then select **[!UICONTROL Algolia]** as the [!UICONTROL Extension] and select **[!UICONTROL Load Insights]** as the [!UICONTROL Action Type].
 
@@ -103,7 +103,7 @@ Add the **[!UICONTROL Added to Cart]** action to your tag rule to send added to 
 
 ### Purchased {#purchased}
 
-Add the **[!UICONTROL Added to Cart]** action to your tag rule to send purchased events to [!DNL Algolia]. Create a new tag rule or open an existing one. Define the conditions according to your requirements, then select **[!UICONTROL Algolia]** as the [!UICONTROL Extension] and select **[!UICONTROL Purchased]** as the [!UICONTROL Action Type].
+Add the **[!UICONTROL Purchased]** action to your tag rule to send purchased events to [!DNL Algolia]. Create a new tag rule or open an existing one. Define the conditions according to your requirements, then select **[!UICONTROL Algolia]** as the [!UICONTROL Extension] and select **[!UICONTROL Purchased]** as the [!UICONTROL Action Type].
 
 | Property | Description |
 | --- | --- |
@@ -114,7 +114,7 @@ Add the **[!UICONTROL Added to Cart]** action to your tag rule to send purchased
 
 ### Viewed {#viewed}
 
-Add the **[!UICONTROL Added to Cart]** action to your tag rule to send purchased events to [!DNL Algolia]. Create a new tag rule or open an existing one. Define the conditions according to your requirements, then select **[!UICONTROL Algolia]** as the [!UICONTROL Extension] and select **[!UICONTROL Viewed]** as the [!UICONTROL Action Type].
+Add the **[!UICONTROL Viewed]** action to your tag rule to send purchased events to [!DNL Algolia]. Create a new tag rule or open an existing one. Define the conditions according to your requirements, then select **[!UICONTROL Algolia]** as the [!UICONTROL Extension] and select **[!UICONTROL Viewed]** as the [!UICONTROL Action Type].
 
 ![](../../../images/extensions/client/algolia/viewed.png) 
 
